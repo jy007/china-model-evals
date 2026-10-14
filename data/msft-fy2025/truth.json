@@ -1,0 +1,110 @@
+{
+ "revenue": {
+  "tag": "RevenueFromContractWithCustomerExcludingAssessedTax",
+  "unit": "usd_millions",
+  "value": 281724.0,
+  "prior": 245122.0
+ },
+ "gross_margin": {
+  "tag": "GrossProfit",
+  "unit": "usd_millions",
+  "value": 193893.0,
+  "prior": 171008.0
+ },
+ "research_and_development": {
+  "tag": "ResearchAndDevelopmentExpense",
+  "unit": "usd_millions",
+  "value": 32488.0,
+  "prior": 29510.0
+ },
+ "sales_and_marketing": {
+  "tag": "SellingAndMarketingExpense",
+  "unit": "usd_millions",
+  "value": 25654.0,
+  "prior": 24456.0
+ },
+ "general_and_administrative": {
+  "tag": "GeneralAndAdministrativeExpense",
+  "unit": "usd_millions",
+  "value": 7223.0,
+  "prior": 7609.0
+ },
+ "operating_income": {
+  "tag": "OperatingIncomeLoss",
+  "unit": "usd_millions",
+  "value": 128528.0,
+  "prior": 109433.0
+ },
+ "income_before_income_taxes": {
+  "tag": "IncomeLossFromContinuingOperationsBeforeIncomeTaxesExtraordinaryItemsNoncontrollingInterest",
+  "unit": "usd_millions",
+  "value": 123627.0,
+  "prior": 107787.0
+ },
+ "provision_for_income_taxes": {
+  "tag": "IncomeTaxExpenseBenefit",
+  "unit": "usd_millions",
+  "value": 21795.0,
+  "prior": 19651.0
+ },
+ "net_income": {
+  "tag": "NetIncomeLoss",
+  "unit": "usd_millions",
+  "value": 101832.0,
+  "prior": 88136.0
+ },
+ "diluted_eps": {
+  "tag": "EarningsPerShareDiluted",
+  "unit": "usd_per_share",
+  "value": 13.64,
+  "prior": 11.8
+ },
+ "total_assets": {
+  "tag": "Assets",
+  "unit": "usd_millions",
+  "value": 619003.0,
+  "prior": 512163.0
+ },
+ "total_liabilities": {
+  "tag": "Liabilities",
+  "unit": "usd_millions",
+  "value": 275524.0,
+  "prior": 243686.0
+ },
+ "total_stockholders_equity": {
+  "tag": "StockholdersEquity",
+  "unit": "usd_millions",
+  "value": 343479.0,
+  "prior": 268477.0
+ },
+ "cash_and_cash_equivalents": {
+  "tag": "CashAndCashEquivalentsAtCarryingValue",
+  "unit": "usd_millions",
+  "value": 30242.0,
+  "prior": 18315.0
+ },
+ "short_term_investments": {
+  "tag": "ShortTermInvestments",
+  "unit": "usd_millions",
+  "value": 64323.0,
+  "prior": 57228.0
+ },
+ "property_and_equipment_net": {
+  "tag": "PropertyPlantAndEquipmentNet",
+  "unit": "usd_millions",
+  "value": 204966.0,
+  "prior": 135591.0
+ },
+ "goodwill": {
+  "tag": "Goodwill",
+  "unit": "usd_millions",
+  "value": 119509.0,
+  "prior": 119220.0
+ },
+ "net_cash_from_operations": {
+  "tag": "NetCashProvidedByUsedInOperatingActivities",
+  "unit": "usd_millions",
+  "value": 136162.0,
+  "prior": 118548.0
+ }
+}

@@ -1,0 +1,153 @@
+{
+ "model": "deepseek/deepseek-v4.1-flash",
+ "run": 1,
+ "nonce": "a101563eae2a4fe6b5aa7e85bee12127",
+ "error": null,
+ "response": {
+  "id": "gen-1791980300-AvjSAgz54nTdFUHc0M0X",
+  "object": "chat.completion",
+  "created": 1791980301,
+  "model": "deepseek/deepseek-v4.1-flash",
+  "provider": "CoreWeave",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "stop",
+    "native_finish_reason": "stop",
+    "message": {
+     "role": "assistant",
+     "content": "{\"revenue\":281724,\"gross_margin\":193893,\"research_and_development\":32488,\"sales_and_marketing\":25654,\"general_and_administrative\":7223,\"operating_income\":128528,\"income_before_income_taxes\":123627,\"provision_for_income_taxes\":21795,\"net_income\":101832,\"diluted_eps\":13.64,\"total_assets\":619003,\"total_liabilities\":275524,\"total_stockholders_equity\":343479,\"cash_and_cash_equivalents\":30242,\"short_term_investments\":64323,\"property_and_equipment_net\":204966,\"goodwill\":119509,\"net_cash_from_operations\":136162}",
+     "refusal": null,
+     "reasoning": "We need answer only JSON object with exact keys. Need extract figures for fiscal 2025 from consolidated financial statements. Need be careful. We have document. Need fields:\n- revenue\n- gross_margin\n- research_and_development\n- sales_and_marketing\n- general_and_administrative\n- operating_income\n- income_before_income_taxes\n- provision_for_income_taxes\n- net_income\n- diluted_eps\n- total_assets\n- total_liabilities\n- total_stockholders_equity\n- cash_and_cash_equivalents\n- short_term_investments\n- property_and_equipment_net\n- goodwill\n- net_cash_from_operations\n\nNeed report dollar amounts in millions, diluted EPS in dollars per share. Plain numbers no commas no currency symbols. Use null if cannot find.\n\nNeed parse from income statements, balance sheets, cash flows. Fiscal 2025.\n\nLet's extract:\n\nIncome Statements:\nTotal revenue | 281,724\nGross margin | 193,893\nResearch and development | 32,488\nSales and marketing | 25,654\nGeneral and administrative | 7,223\nOperating income | 128,528\nIncome before income taxes | 123,627\nProvision for income taxes | 21,795\nNet income | 101,832\nDiluted EPS | $13.64\n\nBalance Sheets June 30 2025:\nTotal assets | $619,003\nTotal liabilities | 275,524\nTotal stockholders' equity | 343,479\nCash and cash equivalents | $30,242\nShort-term investments | 64,323\nProperty and equipment, net of accumulated depreciation ... | 204,966\nGoodwill | 119,509\n\nCash Flows:\nNet cash from operations | 136,162\n\nNeed ensure \"net_cash_from_operations\" exactly. Yes.\n\nReturn JSON object with exactly these keys. No extra. Plain numbers. For diluted_eps: 13.64. All amounts no commas. Need maybe null? no.\n\nLet's craft final JSON. Ensure valid JSON. Use numbers not strings. Keys exactly. \nNeed no markdown? User says Return only a JSON object. So final only JSON.\n\nDouble-check if \"gross_margin\" from income statement 193,893. Yes.\n\nPotential issue: \"total_liabilities\" in balance sheet 275,524. Yes.\n\n\"total_stockholders_equity\" 343,479. Yes.\n\n\"cash_and_cash_equivalents\" 30,242. Yes.\n\n\"short_term_investments\" 64,323. Yes.\n\n\"property_and_equipment_net\" 204,966. Yes.\n\n\"goodwill\" 119,509. Yes.\n\n\"net_cash_from_operations\" 136,162. Yes.\n\nNeed no commas. \nFinal.",
+     "reasoning_details": [
+      {
+       "type": "reasoning.text",
+       "text": "We need answer only JSON object with exact keys. Need extract figures for fiscal 2025 from consolidated financial statements. Need be careful. We have document. Need fields:\n- revenue\n- gross_margin\n- research_and_development\n- sales_and_marketing\n- general_and_administrative\n- operating_income\n- income_before_income_taxes\n- provision_for_income_taxes\n- net_income\n- diluted_eps\n- total_assets\n- total_liabilities\n- total_stockholders_equity\n- cash_and_cash_equivalents\n- short_term_investments\n- property_and_equipment_net\n- goodwill\n- net_cash_from_operations\n\nNeed report dollar amounts in millions, diluted EPS in dollars per share. Plain numbers no commas no currency symbols. Use null if cannot find.\n\nNeed parse from income statements, balance sheets, cash flows. Fiscal 2025.\n\nLet's extract:\n\nIncome Statements:\nTotal revenue | 281,724\nGross margin | 193,893\nResearch and development | 32,488\nSales and marketing | 25,654\nGeneral and administrative | 7,223\nOperating income | 128,528\nIncome before income taxes | 123,627\nProvision for income taxes | 21,795\nNet income | 101,832\nDiluted EPS | $13.64\n\nBalance Sheets June 30 2025:\nTotal assets | $619,003\nTotal liabilities | 275,524\nTotal stockholders' equity | 343,479\nCash and cash equivalents | $30,242\nShort-term investments | 64,323\nProperty and equipment, net of accumulated depreciation ... | 204,966\nGoodwill | 119,509\n\nCash Flows:\nNet cash from operations | 136,162\n\nNeed ensure \"net_cash_from_operations\" exactly. Yes.\n\nReturn JSON object with exactly these keys. No extra. Plain numbers. For diluted_eps: 13.64. All amounts no commas. Need maybe null? no.\n\nLet's craft final JSON. Ensure valid JSON. Use numbers not strings. Keys exactly. \nNeed no markdown? User says Return only a JSON object. So final only JSON.\n\nDouble-check if \"gross_margin\" from income statement 193,893. Yes.\n\nPotential issue: \"total_liabilities\" in balance sheet 275,524. Yes.\n\n\"total_stockholders_equity\" 343,479. Yes.\n\n\"cash_and_cash_equivalents\" 30,242. Yes.\n\n\"short_term_investments\" 64,323. Yes.\n\n\"property_and_equipment_net\" 204,966. Yes.\n\n\"goodwill\" 119,509. Yes.\n\n\"net_cash_from_operations\" 136,162. Yes.\n\nNeed no commas. \nFinal.",
+       "format": "unknown",
+       "index": 0
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 49497,
+   "completion_tokens": 767,
+   "total_tokens": 50264,
+   "cost": 0.01039795,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.01039795,
+    "upstream_inference_prompt_cost": 0.0098994,
+    "upstream_inference_completions_cost": 0.00049855
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 603,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "_elapsed_s": 5.0
+ },
+ "scored": {
+  "revenue": {
+   "answer": 281724.0,
+   "truth": 281724.0,
+   "result": "correct"
+  },
+  "gross_margin": {
+   "answer": 193893.0,
+   "truth": 193893.0,
+   "result": "correct"
+  },
+  "research_and_development": {
+   "answer": 32488.0,
+   "truth": 32488.0,
+   "result": "correct"
+  },
+  "sales_and_marketing": {
+   "answer": 25654.0,
+   "truth": 25654.0,
+   "result": "correct"
+  },
+  "general_and_administrative": {
+   "answer": 7223.0,
+   "truth": 7223.0,
+   "result": "correct"
+  },
+  "operating_income": {
+   "answer": 128528.0,
+   "truth": 128528.0,
+   "result": "correct"
+  },
+  "income_before_income_taxes": {
+   "answer": 123627.0,
+   "truth": 123627.0,
+   "result": "correct"
+  },
+  "provision_for_income_taxes": {
+   "answer": 21795.0,
+   "truth": 21795.0,
+   "result": "correct"
+  },
+  "net_income": {
+   "answer": 101832.0,
+   "truth": 101832.0,
+   "result": "correct"
+  },
+  "diluted_eps": {
+   "answer": 13.64,
+   "truth": 13.64,
+   "result": "correct"
+  },
+  "total_assets": {
+   "answer": 619003.0,
+   "truth": 619003.0,
+   "result": "correct"
+  },
+  "total_liabilities": {
+   "answer": 275524.0,
+   "truth": 275524.0,
+   "result": "correct"
+  },
+  "total_stockholders_equity": {
+   "answer": 343479.0,
+   "truth": 343479.0,
+   "result": "correct"
+  },
+  "cash_and_cash_equivalents": {
+   "answer": 30242.0,
+   "truth": 30242.0,
+   "result": "correct"
+  },
+  "short_term_investments": {
+   "answer": 64323.0,
+   "truth": 64323.0,
+   "result": "correct"
+  },
+  "property_and_equipment_net": {
+   "answer": 204966.0,
+   "truth": 204966.0,
+   "result": "correct"
+  },
+  "goodwill": {
+   "answer": 119509.0,
+   "truth": 119509.0,
+   "result": "correct"
+  },
+  "net_cash_from_operations": {
+   "answer": 136162.0,
+   "truth": 136162.0,
+   "result": "correct"
+  }
+ }
+}

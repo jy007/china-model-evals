@@ -1,0 +1,153 @@
+{
+ "model": "qwen/qwen3.8-max-0902",
+ "run": 1,
+ "nonce": "a73fee763c5243c288b48686047254f5",
+ "error": null,
+ "response": {
+  "id": "gen-1791980301-tQCfFIxyBxTQIvLGup2e",
+  "object": "chat.completion",
+  "created": 1791980301,
+  "model": "qwen/qwen3.8-max-0902",
+  "provider": "Alibaba",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "stop",
+    "native_finish_reason": "stop",
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"revenue\": 281724,\n  \"gross_margin\": 193893,\n  \"research_and_development\": 32488,\n  \"sales_and_marketing\": 25654,\n  \"general_and_administrative\": 7223,\n  \"operating_income\": 128528,\n  \"income_before_income_taxes\": 123627,\n  \"provision_for_income_taxes\": 21795,\n  \"net_income\": 101832,\n  \"diluted_eps\": 13.64,\n  \"total_assets\": 619003,\n  \"total_liabilities\": 275524,\n  \"total_stockholders_equity\": 343479,\n  \"cash_and_cash_equivalents\": 30242,\n  \"short_term_investments\": 64323,\n  \"property_and_equipment_net\": 204966,\n  \"goodwill\": 119509,\n  \"net_cash_from_operations\": 136162\n}",
+     "refusal": null,
+     "reasoning": "We need answer user's request: extract figures for fiscal year 2025 from provided 10-K text. Need return only JSON object with keys exactly. Need ensure numbers in millions USD, diluted EPS in USD per share, plain numbers no commas/currency, null if cannot find.\n\nWe need parse document. Key figures:\nFrom INCOME STATEMENTS Year Ended June 30, 2025:\nTotal revenue 281,724\nGross margin 193,893\nResearch and development 32,488\nSales and marketing 25,654\nGeneral and administrative 7,223\nOperating income 128,528\nIncome before income taxes 123,627\nProvision for income taxes 21,795\nNet income 101,832\nDiluted EPS 13.64\n\nBalance sheets June 30, 2025:\nTotal assets 619,003\nTotal liabilities 275,524\nTotal stockholders' equity 343,479\nCash and cash equivalents 30,242\nShort-term investments 64,323\nProperty and equipment, net 204,966\nGoodwill 119,509\n\nCash flows statements Year Ended June 30, 2025:\nNet cash from operations 136,162\n\nNeed output JSON only. Ensure plain numbers: e.g. 281724, 13.64. No commas. Keys exactly:\n- revenue\n- gross_margin\n- research_and_development\n- sales_and_marketing\n- general_and_administrative\n- operating_income\n- income_before_income_taxes\n- provision_for_income_taxes\n- net_income\n- diluted_eps\n- total_assets\n- total_liabilities\n- total_stockholders_equity\n- cash_and_cash_equivalents\n- short_term_investments\n- property_and_equipment_net\n- goodwill\n- net_cash_from_operations\n\nNeed maybe consider if short_term_investments from balance sheet is 64,323. Yes.\n\nFinal only JSON. No analysis. Ensure valid JSON. Could numbers as integers/floats. diluted_eps 13.64. Use null none. Done.",
+     "reasoning_details": [
+      {
+       "type": "reasoning.text",
+       "text": "We need answer user's request: extract figures for fiscal year 2025 from provided 10-K text. Need return only JSON object with keys exactly. Need ensure numbers in millions USD, diluted EPS in USD per share, plain numbers no commas/currency, null if cannot find.\n\nWe need parse document. Key figures:\nFrom INCOME STATEMENTS Year Ended June 30, 2025:\nTotal revenue 281,724\nGross margin 193,893\nResearch and development 32,488\nSales and marketing 25,654\nGeneral and administrative 7,223\nOperating income 128,528\nIncome before income taxes 123,627\nProvision for income taxes 21,795\nNet income 101,832\nDiluted EPS 13.64\n\nBalance sheets June 30, 2025:\nTotal assets 619,003\nTotal liabilities 275,524\nTotal stockholders' equity 343,479\nCash and cash equivalents 30,242\nShort-term investments 64,323\nProperty and equipment, net 204,966\nGoodwill 119,509\n\nCash flows statements Year Ended June 30, 2025:\nNet cash from operations 136,162\n\nNeed output JSON only. Ensure plain numbers: e.g. 281724, 13.64. No commas. Keys exactly:\n- revenue\n- gross_margin\n- research_and_development\n- sales_and_marketing\n- general_and_administrative\n- operating_income\n- income_before_income_taxes\n- provision_for_income_taxes\n- net_income\n- diluted_eps\n- total_assets\n- total_liabilities\n- total_stockholders_equity\n- cash_and_cash_equivalents\n- short_term_investments\n- property_and_equipment_net\n- goodwill\n- net_cash_from_operations\n\nNeed maybe consider if short_term_investments from balance sheet is 64,323. Yes.\n\nFinal only JSON. No analysis. Ensure valid JSON. Could numbers as integers/floats. diluted_eps 13.64. Use null none. Done.",
+       "format": "unknown",
+       "index": 0
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 55236,
+   "completion_tokens": 803,
+   "total_tokens": 56039,
+   "cost": 0.11529,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.11529,
+    "upstream_inference_prompt_cost": 0.110472,
+    "upstream_inference_completions_cost": 0.004818
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 522,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "_elapsed_s": 19.8
+ },
+ "scored": {
+  "revenue": {
+   "answer": 281724.0,
+   "truth": 281724.0,
+   "result": "correct"
+  },
+  "gross_margin": {
+   "answer": 193893.0,
+   "truth": 193893.0,
+   "result": "correct"
+  },
+  "research_and_development": {
+   "answer": 32488.0,
+   "truth": 32488.0,
+   "result": "correct"
+  },
+  "sales_and_marketing": {
+   "answer": 25654.0,
+   "truth": 25654.0,
+   "result": "correct"
+  },
+  "general_and_administrative": {
+   "answer": 7223.0,
+   "truth": 7223.0,
+   "result": "correct"
+  },
+  "operating_income": {
+   "answer": 128528.0,
+   "truth": 128528.0,
+   "result": "correct"
+  },
+  "income_before_income_taxes": {
+   "answer": 123627.0,
+   "truth": 123627.0,
+   "result": "correct"
+  },
+  "provision_for_income_taxes": {
+   "answer": 21795.0,
+   "truth": 21795.0,
+   "result": "correct"
+  },
+  "net_income": {
+   "answer": 101832.0,
+   "truth": 101832.0,
+   "result": "correct"
+  },
+  "diluted_eps": {
+   "answer": 13.64,
+   "truth": 13.64,
+   "result": "correct"
+  },
+  "total_assets": {
+   "answer": 619003.0,
+   "truth": 619003.0,
+   "result": "correct"
+  },
+  "total_liabilities": {
+   "answer": 275524.0,
+   "truth": 275524.0,
+   "result": "correct"
+  },
+  "total_stockholders_equity": {
+   "answer": 343479.0,
+   "truth": 343479.0,
+   "result": "correct"
+  },
+  "cash_and_cash_equivalents": {
+   "answer": 30242.0,
+   "truth": 30242.0,
+   "result": "correct"
+  },
+  "short_term_investments": {
+   "answer": 64323.0,
+   "truth": 64323.0,
+   "result": "correct"
+  },
+  "property_and_equipment_net": {
+   "answer": 204966.0,
+   "truth": 204966.0,
+   "result": "correct"
+  },
+  "goodwill": {
+   "answer": 119509.0,
+   "truth": 119509.0,
+   "result": "correct"
+  },
+  "net_cash_from_operations": {
+   "answer": 136162.0,
+   "truth": 136162.0,
+   "result": "correct"
+  }
+ }
+}

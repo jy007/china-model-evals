@@ -1,0 +1,1442 @@
+[
+ {
+  "model": "deepseek/deepseek-v4.1-flash",
+  "run": 1,
+  "error": null,
+  "scored": {
+   "revenue": {
+    "answer": 281724.0,
+    "truth": 281724.0,
+    "result": "correct"
+   },
+   "gross_margin": {
+    "answer": 193893.0,
+    "truth": 193893.0,
+    "result": "correct"
+   },
+   "research_and_development": {
+    "answer": 32488.0,
+    "truth": 32488.0,
+    "result": "correct"
+   },
+   "sales_and_marketing": {
+    "answer": 25654.0,
+    "truth": 25654.0,
+    "result": "correct"
+   },
+   "general_and_administrative": {
+    "answer": 7223.0,
+    "truth": 7223.0,
+    "result": "correct"
+   },
+   "operating_income": {
+    "answer": 128528.0,
+    "truth": 128528.0,
+    "result": "correct"
+   },
+   "income_before_income_taxes": {
+    "answer": 123627.0,
+    "truth": 123627.0,
+    "result": "correct"
+   },
+   "provision_for_income_taxes": {
+    "answer": 21795.0,
+    "truth": 21795.0,
+    "result": "correct"
+   },
+   "net_income": {
+    "answer": 101832.0,
+    "truth": 101832.0,
+    "result": "correct"
+   },
+   "diluted_eps": {
+    "answer": 13.64,
+    "truth": 13.64,
+    "result": "correct"
+   },
+   "total_assets": {
+    "answer": 619003.0,
+    "truth": 619003.0,
+    "result": "correct"
+   },
+   "total_liabilities": {
+    "answer": 275524.0,
+    "truth": 275524.0,
+    "result": "correct"
+   },
+   "total_stockholders_equity": {
+    "answer": 343479.0,
+    "truth": 343479.0,
+    "result": "correct"
+   },
+   "cash_and_cash_equivalents": {
+    "answer": 30242.0,
+    "truth": 30242.0,
+    "result": "correct"
+   },
+   "short_term_investments": {
+    "answer": 64323.0,
+    "truth": 64323.0,
+    "result": "correct"
+   },
+   "property_and_equipment_net": {
+    "answer": 204966.0,
+    "truth": 204966.0,
+    "result": "correct"
+   },
+   "goodwill": {
+    "answer": 119509.0,
+    "truth": 119509.0,
+    "result": "correct"
+   },
+   "net_cash_from_operations": {
+    "answer": 136162.0,
+    "truth": 136162.0,
+    "result": "correct"
+   }
+  },
+  "usage": {
+   "prompt_tokens": 49497,
+   "completion_tokens": 767,
+   "total_tokens": 50264,
+   "cost": 0.01039795,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.01039795,
+    "upstream_inference_prompt_cost": 0.0098994,
+    "upstream_inference_completions_cost": 0.00049855
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 603,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ },
+ {
+  "model": "deepseek/deepseek-v4.1-flash",
+  "run": 2,
+  "error": null,
+  "scored": {
+   "revenue": {
+    "answer": 281724.0,
+    "truth": 281724.0,
+    "result": "correct"
+   },
+   "gross_margin": {
+    "answer": 193893.0,
+    "truth": 193893.0,
+    "result": "correct"
+   },
+   "research_and_development": {
+    "answer": 32488.0,
+    "truth": 32488.0,
+    "result": "correct"
+   },
+   "sales_and_marketing": {
+    "answer": 25654.0,
+    "truth": 25654.0,
+    "result": "correct"
+   },
+   "general_and_administrative": {
+    "answer": 7223.0,
+    "truth": 7223.0,
+    "result": "correct"
+   },
+   "operating_income": {
+    "answer": 128528.0,
+    "truth": 128528.0,
+    "result": "correct"
+   },
+   "income_before_income_taxes": {
+    "answer": 123627.0,
+    "truth": 123627.0,
+    "result": "correct"
+   },
+   "provision_for_income_taxes": {
+    "answer": 21795.0,
+    "truth": 21795.0,
+    "result": "correct"
+   },
+   "net_income": {
+    "answer": 101832.0,
+    "truth": 101832.0,
+    "result": "correct"
+   },
+   "diluted_eps": {
+    "answer": 13.64,
+    "truth": 13.64,
+    "result": "correct"
+   },
+   "total_assets": {
+    "answer": 619003.0,
+    "truth": 619003.0,
+    "result": "correct"
+   },
+   "total_liabilities": {
+    "answer": 275524.0,
+    "truth": 275524.0,
+    "result": "correct"
+   },
+   "total_stockholders_equity": {
+    "answer": 343479.0,
+    "truth": 343479.0,
+    "result": "correct"
+   },
+   "cash_and_cash_equivalents": {
+    "answer": 30242.0,
+    "truth": 30242.0,
+    "result": "correct"
+   },
+   "short_term_investments": {
+    "answer": 64323.0,
+    "truth": 64323.0,
+    "result": "correct"
+   },
+   "property_and_equipment_net": {
+    "answer": 204966.0,
+    "truth": 204966.0,
+    "result": "correct"
+   },
+   "goodwill": {
+    "answer": 119509.0,
+    "truth": 119509.0,
+    "result": "correct"
+   },
+   "net_cash_from_operations": {
+    "answer": 136162.0,
+    "truth": 136162.0,
+    "result": "correct"
+   }
+  },
+  "usage": {
+   "prompt_tokens": 49494,
+   "completion_tokens": 622,
+   "total_tokens": 50116,
+   "cost": 0.0014818656,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0014818656,
+    "upstream_inference_prompt_cost": 0.0011086656,
+    "upstream_inference_completions_cost": 0.0003732
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 422,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ },
+ {
+  "model": "deepseek/deepseek-v4.1-flash",
+  "run": 3,
+  "error": null,
+  "scored": {
+   "revenue": {
+    "answer": 281724.0,
+    "truth": 281724.0,
+    "result": "correct"
+   },
+   "gross_margin": {
+    "answer": 193893.0,
+    "truth": 193893.0,
+    "result": "correct"
+   },
+   "research_and_development": {
+    "answer": 32488.0,
+    "truth": 32488.0,
+    "result": "correct"
+   },
+   "sales_and_marketing": {
+    "answer": 25654.0,
+    "truth": 25654.0,
+    "result": "correct"
+   },
+   "general_and_administrative": {
+    "answer": 7223.0,
+    "truth": 7223.0,
+    "result": "correct"
+   },
+   "operating_income": {
+    "answer": 128528.0,
+    "truth": 128528.0,
+    "result": "correct"
+   },
+   "income_before_income_taxes": {
+    "answer": 123627.0,
+    "truth": 123627.0,
+    "result": "correct"
+   },
+   "provision_for_income_taxes": {
+    "answer": 21795.0,
+    "truth": 21795.0,
+    "result": "correct"
+   },
+   "net_income": {
+    "answer": 101832.0,
+    "truth": 101832.0,
+    "result": "correct"
+   },
+   "diluted_eps": {
+    "answer": 13.64,
+    "truth": 13.64,
+    "result": "correct"
+   },
+   "total_assets": {
+    "answer": 619003.0,
+    "truth": 619003.0,
+    "result": "correct"
+   },
+   "total_liabilities": {
+    "answer": 275524.0,
+    "truth": 275524.0,
+    "result": "correct"
+   },
+   "total_stockholders_equity": {
+    "answer": 343479.0,
+    "truth": 343479.0,
+    "result": "correct"
+   },
+   "cash_and_cash_equivalents": {
+    "answer": 30242.0,
+    "truth": 30242.0,
+    "result": "correct"
+   },
+   "short_term_investments": {
+    "answer": 64323.0,
+    "truth": 64323.0,
+    "result": "correct"
+   },
+   "property_and_equipment_net": {
+    "answer": 204966.0,
+    "truth": 204966.0,
+    "result": "correct"
+   },
+   "goodwill": {
+    "answer": 119509.0,
+    "truth": 119509.0,
+    "result": "correct"
+   },
+   "net_cash_from_operations": {
+    "answer": 136162.0,
+    "truth": 136162.0,
+    "result": "correct"
+   }
+  },
+  "usage": {
+   "prompt_tokens": 49496,
+   "completion_tokens": 543,
+   "total_tokens": 50039,
+   "cost": 0.01500544,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.01500544,
+    "upstream_inference_prompt_cost": 0.01435384,
+    "upstream_inference_completions_cost": 0.0006516
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 379,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ },
+ {
+  "model": "qwen/qwen3.8-max-0902",
+  "run": 1,
+  "error": null,
+  "scored": {
+   "revenue": {
+    "answer": 281724.0,
+    "truth": 281724.0,
+    "result": "correct"
+   },
+   "gross_margin": {
+    "answer": 193893.0,
+    "truth": 193893.0,
+    "result": "correct"
+   },
+   "research_and_development": {
+    "answer": 32488.0,
+    "truth": 32488.0,
+    "result": "correct"
+   },
+   "sales_and_marketing": {
+    "answer": 25654.0,
+    "truth": 25654.0,
+    "result": "correct"
+   },
+   "general_and_administrative": {
+    "answer": 7223.0,
+    "truth": 7223.0,
+    "result": "correct"
+   },
+   "operating_income": {
+    "answer": 128528.0,
+    "truth": 128528.0,
+    "result": "correct"
+   },
+   "income_before_income_taxes": {
+    "answer": 123627.0,
+    "truth": 123627.0,
+    "result": "correct"
+   },
+   "provision_for_income_taxes": {
+    "answer": 21795.0,
+    "truth": 21795.0,
+    "result": "correct"
+   },
+   "net_income": {
+    "answer": 101832.0,
+    "truth": 101832.0,
+    "result": "correct"
+   },
+   "diluted_eps": {
+    "answer": 13.64,
+    "truth": 13.64,
+    "result": "correct"
+   },
+   "total_assets": {
+    "answer": 619003.0,
+    "truth": 619003.0,
+    "result": "correct"
+   },
+   "total_liabilities": {
+    "answer": 275524.0,
+    "truth": 275524.0,
+    "result": "correct"
+   },
+   "total_stockholders_equity": {
+    "answer": 343479.0,
+    "truth": 343479.0,
+    "result": "correct"
+   },
+   "cash_and_cash_equivalents": {
+    "answer": 30242.0,
+    "truth": 30242.0,
+    "result": "correct"
+   },
+   "short_term_investments": {
+    "answer": 64323.0,
+    "truth": 64323.0,
+    "result": "correct"
+   },
+   "property_and_equipment_net": {
+    "answer": 204966.0,
+    "truth": 204966.0,
+    "result": "correct"
+   },
+   "goodwill": {
+    "answer": 119509.0,
+    "truth": 119509.0,
+    "result": "correct"
+   },
+   "net_cash_from_operations": {
+    "answer": 136162.0,
+    "truth": 136162.0,
+    "result": "correct"
+   }
+  },
+  "usage": {
+   "prompt_tokens": 55236,
+   "completion_tokens": 803,
+   "total_tokens": 56039,
+   "cost": 0.11529,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.11529,
+    "upstream_inference_prompt_cost": 0.110472,
+    "upstream_inference_completions_cost": 0.004818
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 522,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ },
+ {
+  "model": "qwen/qwen3.8-max-0902",
+  "run": 2,
+  "error": null,
+  "scored": {
+   "revenue": {
+    "answer": 281724.0,
+    "truth": 281724.0,
+    "result": "correct"
+   },
+   "gross_margin": {
+    "answer": 193893.0,
+    "truth": 193893.0,
+    "result": "correct"
+   },
+   "research_and_development": {
+    "answer": 32488.0,
+    "truth": 32488.0,
+    "result": "correct"
+   },
+   "sales_and_marketing": {
+    "answer": 25654.0,
+    "truth": 25654.0,
+    "result": "correct"
+   },
+   "general_and_administrative": {
+    "answer": 7223.0,
+    "truth": 7223.0,
+    "result": "correct"
+   },
+   "operating_income": {
+    "answer": 128528.0,
+    "truth": 128528.0,
+    "result": "correct"
+   },
+   "income_before_income_taxes": {
+    "answer": 123627.0,
+    "truth": 123627.0,
+    "result": "correct"
+   },
+   "provision_for_income_taxes": {
+    "answer": 21795.0,
+    "truth": 21795.0,
+    "result": "correct"
+   },
+   "net_income": {
+    "answer": 101832.0,
+    "truth": 101832.0,
+    "result": "correct"
+   },
+   "diluted_eps": {
+    "answer": 13.64,
+    "truth": 13.64,
+    "result": "correct"
+   },
+   "total_assets": {
+    "answer": 619003.0,
+    "truth": 619003.0,
+    "result": "correct"
+   },
+   "total_liabilities": {
+    "answer": 275524.0,
+    "truth": 275524.0,
+    "result": "correct"
+   },
+   "total_stockholders_equity": {
+    "answer": 343479.0,
+    "truth": 343479.0,
+    "result": "correct"
+   },
+   "cash_and_cash_equivalents": {
+    "answer": 30242.0,
+    "truth": 30242.0,
+    "result": "correct"
+   },
+   "short_term_investments": {
+    "answer": 64323.0,
+    "truth": 64323.0,
+    "result": "correct"
+   },
+   "property_and_equipment_net": {
+    "answer": 204966.0,
+    "truth": 204966.0,
+    "result": "correct"
+   },
+   "goodwill": {
+    "answer": 119509.0,
+    "truth": 119509.0,
+    "result": "correct"
+   },
+   "net_cash_from_operations": {
+    "answer": 136162.0,
+    "truth": 136162.0,
+    "result": "correct"
+   }
+  },
+  "usage": {
+   "prompt_tokens": 55233,
+   "completion_tokens": 762,
+   "total_tokens": 55995,
+   "cost": 0.115038,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.115038,
+    "upstream_inference_prompt_cost": 0.110466,
+    "upstream_inference_completions_cost": 0.004572
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 481,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ },
+ {
+  "model": "qwen/qwen3.8-max-0902",
+  "run": 3,
+  "error": null,
+  "scored": {
+   "revenue": {
+    "answer": 281724.0,
+    "truth": 281724.0,
+    "result": "correct"
+   },
+   "gross_margin": {
+    "answer": 193893.0,
+    "truth": 193893.0,
+    "result": "correct"
+   },
+   "research_and_development": {
+    "answer": 32488.0,
+    "truth": 32488.0,
+    "result": "correct"
+   },
+   "sales_and_marketing": {
+    "answer": 25654.0,
+    "truth": 25654.0,
+    "result": "correct"
+   },
+   "general_and_administrative": {
+    "answer": 7223.0,
+    "truth": 7223.0,
+    "result": "correct"
+   },
+   "operating_income": {
+    "answer": 128528.0,
+    "truth": 128528.0,
+    "result": "correct"
+   },
+   "income_before_income_taxes": {
+    "answer": 123627.0,
+    "truth": 123627.0,
+    "result": "correct"
+   },
+   "provision_for_income_taxes": {
+    "answer": 21795.0,
+    "truth": 21795.0,
+    "result": "correct"
+   },
+   "net_income": {
+    "answer": 101832.0,
+    "truth": 101832.0,
+    "result": "correct"
+   },
+   "diluted_eps": {
+    "answer": 13.64,
+    "truth": 13.64,
+    "result": "correct"
+   },
+   "total_assets": {
+    "answer": 619003.0,
+    "truth": 619003.0,
+    "result": "correct"
+   },
+   "total_liabilities": {
+    "answer": 275524.0,
+    "truth": 275524.0,
+    "result": "correct"
+   },
+   "total_stockholders_equity": {
+    "answer": 343479.0,
+    "truth": 343479.0,
+    "result": "correct"
+   },
+   "cash_and_cash_equivalents": {
+    "answer": 30242.0,
+    "truth": 30242.0,
+    "result": "correct"
+   },
+   "short_term_investments": {
+    "answer": 64323.0,
+    "truth": 64323.0,
+    "result": "correct"
+   },
+   "property_and_equipment_net": {
+    "answer": 204966.0,
+    "truth": 204966.0,
+    "result": "correct"
+   },
+   "goodwill": {
+    "answer": 119509.0,
+    "truth": 119509.0,
+    "result": "correct"
+   },
+   "net_cash_from_operations": {
+    "answer": 136162.0,
+    "truth": 136162.0,
+    "result": "correct"
+   }
+  },
+  "usage": {
+   "prompt_tokens": 55239,
+   "completion_tokens": 769,
+   "total_tokens": 56008,
+   "cost": 0.115092,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.115092,
+    "upstream_inference_prompt_cost": 0.110478,
+    "upstream_inference_completions_cost": 0.004614
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 488,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ },
+ {
+  "model": "moonshotai/kimi-k3",
+  "run": 1,
+  "error": null,
+  "scored": {
+   "revenue": {
+    "answer": 281724.0,
+    "truth": 281724.0,
+    "result": "correct"
+   },
+   "gross_margin": {
+    "answer": 193893.0,
+    "truth": 193893.0,
+    "result": "correct"
+   },
+   "research_and_development": {
+    "answer": 32488.0,
+    "truth": 32488.0,
+    "result": "correct"
+   },
+   "sales_and_marketing": {
+    "answer": 25654.0,
+    "truth": 25654.0,
+    "result": "correct"
+   },
+   "general_and_administrative": {
+    "answer": 7223.0,
+    "truth": 7223.0,
+    "result": "correct"
+   },
+   "operating_income": {
+    "answer": 128528.0,
+    "truth": 128528.0,
+    "result": "correct"
+   },
+   "income_before_income_taxes": {
+    "answer": 123627.0,
+    "truth": 123627.0,
+    "result": "correct"
+   },
+   "provision_for_income_taxes": {
+    "answer": 21795.0,
+    "truth": 21795.0,
+    "result": "correct"
+   },
+   "net_income": {
+    "answer": 101832.0,
+    "truth": 101832.0,
+    "result": "correct"
+   },
+   "diluted_eps": {
+    "answer": 13.64,
+    "truth": 13.64,
+    "result": "correct"
+   },
+   "total_assets": {
+    "answer": 619003.0,
+    "truth": 619003.0,
+    "result": "correct"
+   },
+   "total_liabilities": {
+    "answer": 275524.0,
+    "truth": 275524.0,
+    "result": "correct"
+   },
+   "total_stockholders_equity": {
+    "answer": 343479.0,
+    "truth": 343479.0,
+    "result": "correct"
+   },
+   "cash_and_cash_equivalents": {
+    "answer": 30242.0,
+    "truth": 30242.0,
+    "result": "correct"
+   },
+   "short_term_investments": {
+    "answer": 64323.0,
+    "truth": 64323.0,
+    "result": "correct"
+   },
+   "property_and_equipment_net": {
+    "answer": 204966.0,
+    "truth": 204966.0,
+    "result": "correct"
+   },
+   "goodwill": {
+    "answer": 119509.0,
+    "truth": 119509.0,
+    "result": "correct"
+   },
+   "net_cash_from_operations": {
+    "answer": 136162.0,
+    "truth": 136162.0,
+    "result": "correct"
+   }
+  },
+  "usage": {
+   "prompt_tokens": 49515,
+   "completion_tokens": 694,
+   "total_tokens": 50209,
+   "cost": 0.0450705,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.0450705,
+    "upstream_inference_prompt_cost": 0.0346605,
+    "upstream_inference_completions_cost": 0.01041
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 534,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ },
+ {
+  "model": "moonshotai/kimi-k3",
+  "run": 2,
+  "error": null,
+  "scored": {
+   "revenue": {
+    "answer": 281724.0,
+    "truth": 281724.0,
+    "result": "correct"
+   },
+   "gross_margin": {
+    "answer": 193893.0,
+    "truth": 193893.0,
+    "result": "correct"
+   },
+   "research_and_development": {
+    "answer": 32488.0,
+    "truth": 32488.0,
+    "result": "correct"
+   },
+   "sales_and_marketing": {
+    "answer": 25654.0,
+    "truth": 25654.0,
+    "result": "correct"
+   },
+   "general_and_administrative": {
+    "answer": 7223.0,
+    "truth": 7223.0,
+    "result": "correct"
+   },
+   "operating_income": {
+    "answer": 128528.0,
+    "truth": 128528.0,
+    "result": "correct"
+   },
+   "income_before_income_taxes": {
+    "answer": 123627.0,
+    "truth": 123627.0,
+    "result": "correct"
+   },
+   "provision_for_income_taxes": {
+    "answer": 21795.0,
+    "truth": 21795.0,
+    "result": "correct"
+   },
+   "net_income": {
+    "answer": 101832.0,
+    "truth": 101832.0,
+    "result": "correct"
+   },
+   "diluted_eps": {
+    "answer": 13.64,
+    "truth": 13.64,
+    "result": "correct"
+   },
+   "total_assets": {
+    "answer": 619003.0,
+    "truth": 619003.0,
+    "result": "correct"
+   },
+   "total_liabilities": {
+    "answer": 275524.0,
+    "truth": 275524.0,
+    "result": "correct"
+   },
+   "total_stockholders_equity": {
+    "answer": 343479.0,
+    "truth": 343479.0,
+    "result": "correct"
+   },
+   "cash_and_cash_equivalents": {
+    "answer": 30242.0,
+    "truth": 30242.0,
+    "result": "correct"
+   },
+   "short_term_investments": {
+    "answer": 64323.0,
+    "truth": 64323.0,
+    "result": "correct"
+   },
+   "property_and_equipment_net": {
+    "answer": 204966.0,
+    "truth": 204966.0,
+    "result": "correct"
+   },
+   "goodwill": {
+    "answer": 119509.0,
+    "truth": 119509.0,
+    "result": "correct"
+   },
+   "net_cash_from_operations": {
+    "answer": 136162.0,
+    "truth": 136162.0,
+    "result": "correct"
+   }
+  },
+  "usage": {
+   "prompt_tokens": 49518,
+   "completion_tokens": 920,
+   "total_tokens": 50438,
+   "cost": 0.162354,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.162354,
+    "upstream_inference_prompt_cost": 0.148554,
+    "upstream_inference_completions_cost": 0.0138
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 701,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ },
+ {
+  "model": "moonshotai/kimi-k3",
+  "run": 3,
+  "error": null,
+  "scored": {
+   "revenue": {
+    "answer": 281724.0,
+    "truth": 281724.0,
+    "result": "correct"
+   },
+   "gross_margin": {
+    "answer": 193893.0,
+    "truth": 193893.0,
+    "result": "correct"
+   },
+   "research_and_development": {
+    "answer": 32488.0,
+    "truth": 32488.0,
+    "result": "correct"
+   },
+   "sales_and_marketing": {
+    "answer": 25654.0,
+    "truth": 25654.0,
+    "result": "correct"
+   },
+   "general_and_administrative": {
+    "answer": 7223.0,
+    "truth": 7223.0,
+    "result": "correct"
+   },
+   "operating_income": {
+    "answer": 128528.0,
+    "truth": 128528.0,
+    "result": "correct"
+   },
+   "income_before_income_taxes": {
+    "answer": 123627.0,
+    "truth": 123627.0,
+    "result": "correct"
+   },
+   "provision_for_income_taxes": {
+    "answer": 21795.0,
+    "truth": 21795.0,
+    "result": "correct"
+   },
+   "net_income": {
+    "answer": 101832.0,
+    "truth": 101832.0,
+    "result": "correct"
+   },
+   "diluted_eps": {
+    "answer": 13.64,
+    "truth": 13.64,
+    "result": "correct"
+   },
+   "total_assets": {
+    "answer": 619003.0,
+    "truth": 619003.0,
+    "result": "correct"
+   },
+   "total_liabilities": {
+    "answer": 275524.0,
+    "truth": 275524.0,
+    "result": "correct"
+   },
+   "total_stockholders_equity": {
+    "answer": 343479.0,
+    "truth": 343479.0,
+    "result": "correct"
+   },
+   "cash_and_cash_equivalents": {
+    "answer": 30242.0,
+    "truth": 30242.0,
+    "result": "correct"
+   },
+   "short_term_investments": {
+    "answer": 64323.0,
+    "truth": 64323.0,
+    "result": "correct"
+   },
+   "property_and_equipment_net": {
+    "answer": 204966.0,
+    "truth": 204966.0,
+    "result": "correct"
+   },
+   "goodwill": {
+    "answer": 119509.0,
+    "truth": 119509.0,
+    "result": "correct"
+   },
+   "net_cash_from_operations": {
+    "answer": 136162.0,
+    "truth": 136162.0,
+    "result": "correct"
+   }
+  },
+  "usage": {
+   "prompt_tokens": 49512,
+   "completion_tokens": 717,
+   "total_tokens": 50229,
+   "cost": 0.036576432,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.036576432,
+    "upstream_inference_prompt_cost": 0.026538432,
+    "upstream_inference_completions_cost": 0.010038
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 409,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ },
+ {
+  "model": "z-ai/glm-5.3",
+  "run": 1,
+  "error": null,
+  "scored": {
+   "revenue": {
+    "answer": 281724.0,
+    "truth": 281724.0,
+    "result": "correct"
+   },
+   "gross_margin": {
+    "answer": 193893.0,
+    "truth": 193893.0,
+    "result": "correct"
+   },
+   "research_and_development": {
+    "answer": 32488.0,
+    "truth": 32488.0,
+    "result": "correct"
+   },
+   "sales_and_marketing": {
+    "answer": 25654.0,
+    "truth": 25654.0,
+    "result": "correct"
+   },
+   "general_and_administrative": {
+    "answer": 7223.0,
+    "truth": 7223.0,
+    "result": "correct"
+   },
+   "operating_income": {
+    "answer": 128528.0,
+    "truth": 128528.0,
+    "result": "correct"
+   },
+   "income_before_income_taxes": {
+    "answer": 123627.0,
+    "truth": 123627.0,
+    "result": "correct"
+   },
+   "provision_for_income_taxes": {
+    "answer": 21795.0,
+    "truth": 21795.0,
+    "result": "correct"
+   },
+   "net_income": {
+    "answer": 101832.0,
+    "truth": 101832.0,
+    "result": "correct"
+   },
+   "diluted_eps": {
+    "answer": 13.64,
+    "truth": 13.64,
+    "result": "correct"
+   },
+   "total_assets": {
+    "answer": 619003.0,
+    "truth": 619003.0,
+    "result": "correct"
+   },
+   "total_liabilities": {
+    "answer": 275524.0,
+    "truth": 275524.0,
+    "result": "correct"
+   },
+   "total_stockholders_equity": {
+    "answer": 343479.0,
+    "truth": 343479.0,
+    "result": "correct"
+   },
+   "cash_and_cash_equivalents": {
+    "answer": 30242.0,
+    "truth": 30242.0,
+    "result": "correct"
+   },
+   "short_term_investments": {
+    "answer": 64323.0,
+    "truth": 64323.0,
+    "result": "correct"
+   },
+   "property_and_equipment_net": {
+    "answer": 204966.0,
+    "truth": 204966.0,
+    "result": "correct"
+   },
+   "goodwill": {
+    "answer": 119509.0,
+    "truth": 119509.0,
+    "result": "correct"
+   },
+   "net_cash_from_operations": {
+    "answer": 136162.0,
+    "truth": 136162.0,
+    "result": "correct"
+   }
+  },
+  "usage": {
+   "prompt_tokens": 50314,
+   "completion_tokens": 969,
+   "total_tokens": 51283,
+   "cost": 0.00828872,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00828872,
+    "upstream_inference_prompt_cost": 0.00402512,
+    "upstream_inference_completions_cost": 0.0042636
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 747,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ },
+ {
+  "model": "z-ai/glm-5.3",
+  "run": 2,
+  "error": null,
+  "scored": {
+   "revenue": {
+    "answer": 281724.0,
+    "truth": 281724.0,
+    "result": "correct"
+   },
+   "gross_margin": {
+    "answer": 193893.0,
+    "truth": 193893.0,
+    "result": "correct"
+   },
+   "research_and_development": {
+    "answer": 32488.0,
+    "truth": 32488.0,
+    "result": "correct"
+   },
+   "sales_and_marketing": {
+    "answer": 25654.0,
+    "truth": 25654.0,
+    "result": "correct"
+   },
+   "general_and_administrative": {
+    "answer": 7223.0,
+    "truth": 7223.0,
+    "result": "correct"
+   },
+   "operating_income": {
+    "answer": 128528.0,
+    "truth": 128528.0,
+    "result": "correct"
+   },
+   "income_before_income_taxes": {
+    "answer": 123627.0,
+    "truth": 123627.0,
+    "result": "correct"
+   },
+   "provision_for_income_taxes": {
+    "answer": 21795.0,
+    "truth": 21795.0,
+    "result": "correct"
+   },
+   "net_income": {
+    "answer": 101832.0,
+    "truth": 101832.0,
+    "result": "correct"
+   },
+   "diluted_eps": {
+    "answer": 13.64,
+    "truth": 13.64,
+    "result": "correct"
+   },
+   "total_assets": {
+    "answer": 619003.0,
+    "truth": 619003.0,
+    "result": "correct"
+   },
+   "total_liabilities": {
+    "answer": 275524.0,
+    "truth": 275524.0,
+    "result": "correct"
+   },
+   "total_stockholders_equity": {
+    "answer": 343479.0,
+    "truth": 343479.0,
+    "result": "correct"
+   },
+   "cash_and_cash_equivalents": {
+    "answer": 30242.0,
+    "truth": 30242.0,
+    "result": "correct"
+   },
+   "short_term_investments": {
+    "answer": 64323.0,
+    "truth": 64323.0,
+    "result": "correct"
+   },
+   "property_and_equipment_net": {
+    "answer": 204966.0,
+    "truth": 204966.0,
+    "result": "correct"
+   },
+   "goodwill": {
+    "answer": 119509.0,
+    "truth": 119509.0,
+    "result": "correct"
+   },
+   "net_cash_from_operations": {
+    "answer": 136162.0,
+    "truth": 136162.0,
+    "result": "correct"
+   }
+  },
+  "usage": {
+   "prompt_tokens": 50316,
+   "completion_tokens": 223,
+   "total_tokens": 50539,
+   "cost": 0.00962412,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.00962412,
+    "upstream_inference_prompt_cost": 0.00855372,
+    "upstream_inference_completions_cost": 0.0010704
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 0,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ },
+ {
+  "model": "z-ai/glm-5.3",
+  "run": 3,
+  "error": null,
+  "scored": {
+   "revenue": {
+    "answer": 281724.0,
+    "truth": 281724.0,
+    "result": "correct"
+   },
+   "gross_margin": {
+    "answer": 193893.0,
+    "truth": 193893.0,
+    "result": "correct"
+   },
+   "research_and_development": {
+    "answer": 32488.0,
+    "truth": 32488.0,
+    "result": "correct"
+   },
+   "sales_and_marketing": {
+    "answer": 25654.0,
+    "truth": 25654.0,
+    "result": "correct"
+   },
+   "general_and_administrative": {
+    "answer": 7223.0,
+    "truth": 7223.0,
+    "result": "correct"
+   },
+   "operating_income": {
+    "answer": 128528.0,
+    "truth": 128528.0,
+    "result": "correct"
+   },
+   "income_before_income_taxes": {
+    "answer": 123627.0,
+    "truth": 123627.0,
+    "result": "correct"
+   },
+   "provision_for_income_taxes": {
+    "answer": 21795.0,
+    "truth": 21795.0,
+    "result": "correct"
+   },
+   "net_income": {
+    "answer": 101832.0,
+    "truth": 101832.0,
+    "result": "correct"
+   },
+   "diluted_eps": {
+    "answer": 13.64,
+    "truth": 13.64,
+    "result": "correct"
+   },
+   "total_assets": {
+    "answer": 619003.0,
+    "truth": 619003.0,
+    "result": "correct"
+   },
+   "total_liabilities": {
+    "answer": 275524.0,
+    "truth": 275524.0,
+    "result": "correct"
+   },
+   "total_stockholders_equity": {
+    "answer": 343479.0,
+    "truth": 343479.0,
+    "result": "correct"
+   },
+   "cash_and_cash_equivalents": {
+    "answer": 30242.0,
+    "truth": 30242.0,
+    "result": "correct"
+   },
+   "short_term_investments": {
+    "answer": 64323.0,
+    "truth": 64323.0,
+    "result": "correct"
+   },
+   "property_and_equipment_net": {
+    "answer": 204966.0,
+    "truth": 204966.0,
+    "result": "correct"
+   },
+   "goodwill": {
+    "answer": 119509.0,
+    "truth": 119509.0,
+    "result": "correct"
+   },
+   "net_cash_from_operations": {
+    "answer": 136162.0,
+    "truth": 136162.0,
+    "result": "correct"
+   }
+  },
+  "usage": {
+   "prompt_tokens": 50317,
+   "completion_tokens": 990,
+   "total_tokens": 51307,
+   "cost": 0.04861987,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.04861987,
+    "upstream_inference_prompt_cost": 0.04578847,
+    "upstream_inference_completions_cost": 0.0028314
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 695,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  }
+ }
+]

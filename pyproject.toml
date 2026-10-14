@@ -1,0 +1,19 @@
+[project]
+name = "cme"
+version = "0.1.0"
+description = "Reproducible evals of Chinese LLMs on financial-statement extraction, scored against XBRL"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "httpx>=0.28.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.8.10,<0.9.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]

@@ -1,0 +1,152 @@
+{
+ "model": "qwen/qwen3.8-max-0902",
+ "run": 3,
+ "error": null,
+ "response": {
+  "id": "gen-1791976688-PZWNsIIDt7D0P0rUGgva",
+  "object": "chat.completion",
+  "created": 1791976688,
+  "model": "qwen/qwen3.8-max-0902",
+  "provider": "Alibaba",
+  "system_fingerprint": null,
+  "service_tier": null,
+  "choices": [
+   {
+    "index": 0,
+    "logprobs": null,
+    "finish_reason": "stop",
+    "native_finish_reason": "stop",
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"revenue\": 281724,\n  \"gross_margin\": 193893,\n  \"research_and_development\": 32488,\n  \"sales_and_marketing\": 25654,\n  \"general_and_administrative\": 7223,\n  \"operating_income\": 128528,\n  \"income_before_income_taxes\": 123627,\n  \"provision_for_income_taxes\": 21795,\n  \"net_income\": 101832,\n  \"diluted_eps\": 13.64,\n  \"total_assets\": 619003,\n  \"total_liabilities\": 275524,\n  \"total_stockholders_equity\": 343479,\n  \"cash_and_cash_equivalents\": 30242,\n  \"short_term_investments\": 64323,\n  \"property_and_equipment_net\": 204966,\n  \"goodwill\": 119509,\n  \"net_cash_from_operations\": 136162\n}",
+     "refusal": null,
+     "reasoning": "We need answer user's request: extract figures for fiscal year 2025 from provided 10-K text, return only JSON object with keys. Need ensure final only JSON. Need analyze carefully.\n\nUser asks: Below Microsoft Corporation's Form 10-K annual report fiscal year ended June 30, 2025. Extract figures for fiscal year 2025 exactly as reported in consolidated financial statements. Dollar amounts in millions of US dollars, diluted EPS in US dollars per share. Plain numbers no commas no currency symbols; null if cannot find. Fields: revenue, gross_margin, research_and_development, sales_and_marketing, general_and_administrative, operating_income, income_before_income_taxes, provision_for_income_taxes, net_income, diluted_eps, total_assets, total_liabilities, total_stockholders_equity, cash_and_cash_equivalents, short_term_investments, property_and_equipment_net, goodwill, net_cash_from_operations.\n\nNeed locate consolidated financial statements.\n\nFrom INCOME STATEMENTS:\nYear Ended June 30, 2025:\nTotal revenue 281,724\nGross margin 193,893\nResearch and development 32,488\nSales and marketing 25,654\nGeneral and administrative 7,223\nOperating income 128,528\nIncome before income taxes 123,627\nProvision for income taxes 21,795\nNet income 101,832\nDiluted EPS 13.64\n\nBALANCE SHEETS June 30, 2025:\nCash and cash equivalents 30,242\nShort-term investments 64,323\nProperty and equipment, net ... 204,966\nGoodwill 119,509\nTotal assets 619,003\nTotal liabilities 275,524\nTotal stockholders' equity 343,479\n\nCASH FLOWS:\nNet cash from operations 136,162\n\nNeed output JSON numbers plain. EPS maybe 13.64 as number. Ensure no commas. Keys exactly. Could numbers be integers or float. Use null only if missing. All found.\n\nNeed final only JSON object. Ensure no markdown. \n\nDouble-check values:\nRevenue: in income statements Total revenue 281724. Gross margin 193893. R&D 32488. Sales/marketing 25654. G&A 7223. Operating income 128528. Income before taxes: Operating income 128528 + other income expense (4901) = 123627 yes. Provision income taxes 21795. Net income 101832. Diluted EPS 13.64. Total assets 619003. Total liabilities 275524. Equity 343479. Cash equivalents 30242. Short-term investments 64323. PP&E net 204966. Goodwill 119509. Net cash operations 136162.\n\nNeed consider \"exactly as reported in consolidated financial statements\" maybe balance sheet short-term investments includes $64,323. Yes.\n\nReturn only JSON. No extra.",
+     "reasoning_details": [
+      {
+       "type": "reasoning.text",
+       "text": "We need answer user's request: extract figures for fiscal year 2025 from provided 10-K text, return only JSON object with keys. Need ensure final only JSON. Need analyze carefully.\n\nUser asks: Below Microsoft Corporation's Form 10-K annual report fiscal year ended June 30, 2025. Extract figures for fiscal year 2025 exactly as reported in consolidated financial statements. Dollar amounts in millions of US dollars, diluted EPS in US dollars per share. Plain numbers no commas no currency symbols; null if cannot find. Fields: revenue, gross_margin, research_and_development, sales_and_marketing, general_and_administrative, operating_income, income_before_income_taxes, provision_for_income_taxes, net_income, diluted_eps, total_assets, total_liabilities, total_stockholders_equity, cash_and_cash_equivalents, short_term_investments, property_and_equipment_net, goodwill, net_cash_from_operations.\n\nNeed locate consolidated financial statements.\n\nFrom INCOME STATEMENTS:\nYear Ended June 30, 2025:\nTotal revenue 281,724\nGross margin 193,893\nResearch and development 32,488\nSales and marketing 25,654\nGeneral and administrative 7,223\nOperating income 128,528\nIncome before income taxes 123,627\nProvision for income taxes 21,795\nNet income 101,832\nDiluted EPS 13.64\n\nBALANCE SHEETS June 30, 2025:\nCash and cash equivalents 30,242\nShort-term investments 64,323\nProperty and equipment, net ... 204,966\nGoodwill 119,509\nTotal assets 619,003\nTotal liabilities 275,524\nTotal stockholders' equity 343,479\n\nCASH FLOWS:\nNet cash from operations 136,162\n\nNeed output JSON numbers plain. EPS maybe 13.64 as number. Ensure no commas. Keys exactly. Could numbers be integers or float. Use null only if missing. All found.\n\nNeed final only JSON object. Ensure no markdown. \n\nDouble-check values:\nRevenue: in income statements Total revenue 281724. Gross margin 193893. R&D 32488. Sales/marketing 25654. G&A 7223. Operating income 128528. Income before taxes: Operating income 128528 + other income expense (4901) = 123627 yes. Provision income taxes 21795. Net income 101832. Diluted EPS 13.64. Total assets 619003. Total liabilities 275524. Equity 343479. Cash equivalents 30242. Short-term investments 64323. PP&E net 204966. Goodwill 119509. Net cash operations 136162.\n\nNeed consider \"exactly as reported in consolidated financial statements\" maybe balance sheet short-term investments includes $64,323. Yes.\n\nReturn only JSON. No extra.",
+       "format": "unknown",
+       "index": 0
+      }
+     ]
+    }
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 55202,
+   "completion_tokens": 1046,
+   "total_tokens": 56248,
+   "cost": 0.11668,
+   "is_byok": false,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "cache_write_tokens": 0,
+    "audio_tokens": 0,
+    "video_tokens": 0
+   },
+   "cost_details": {
+    "upstream_inference_cost": 0.11668,
+    "upstream_inference_prompt_cost": 0.110404,
+    "upstream_inference_completions_cost": 0.006276
+   },
+   "completion_tokens_details": {
+    "reasoning_tokens": 765,
+    "image_tokens": 0,
+    "audio_tokens": 0
+   }
+  },
+  "_elapsed_s": 24.6
+ },
+ "scored": {
+  "revenue": {
+   "answer": 281724.0,
+   "truth": 281724.0,
+   "result": "correct"
+  },
+  "gross_margin": {
+   "answer": 193893.0,
+   "truth": 193893.0,
+   "result": "correct"
+  },
+  "research_and_development": {
+   "answer": 32488.0,
+   "truth": 32488.0,
+   "result": "correct"
+  },
+  "sales_and_marketing": {
+   "answer": 25654.0,
+   "truth": 25654.0,
+   "result": "correct"
+  },
+  "general_and_administrative": {
+   "answer": 7223.0,
+   "truth": 7223.0,
+   "result": "correct"
+  },
+  "operating_income": {
+   "answer": 128528.0,
+   "truth": 128528.0,
+   "result": "correct"
+  },
+  "income_before_income_taxes": {
+   "answer": 123627.0,
+   "truth": 123627.0,
+   "result": "correct"
+  },
+  "provision_for_income_taxes": {
+   "answer": 21795.0,
+   "truth": 21795.0,
+   "result": "correct"
+  },
+  "net_income": {
+   "answer": 101832.0,
+   "truth": 101832.0,
+   "result": "correct"
+  },
+  "diluted_eps": {
+   "answer": 13.64,
+   "truth": 13.64,
+   "result": "correct"
+  },
+  "total_assets": {
+   "answer": 619003.0,
+   "truth": 619003.0,
+   "result": "correct"
+  },
+  "total_liabilities": {
+   "answer": 275524.0,
+   "truth": 275524.0,
+   "result": "correct"
+  },
+  "total_stockholders_equity": {
+   "answer": 343479.0,
+   "truth": 343479.0,
+   "result": "correct"
+  },
+  "cash_and_cash_equivalents": {
+   "answer": 30242.0,
+   "truth": 30242.0,
+   "result": "correct"
+  },
+  "short_term_investments": {
+   "answer": 64323.0,
+   "truth": 64323.0,
+   "result": "correct"
+  },
+  "property_and_equipment_net": {
+   "answer": 204966.0,
+   "truth": 204966.0,
+   "result": "correct"
+  },
+  "goodwill": {
+   "answer": 119509.0,
+   "truth": 119509.0,
+   "result": "correct"
+  },
+  "net_cash_from_operations": {
+   "answer": 136162.0,
+   "truth": 136162.0,
+   "result": "correct"
+  }
+ }
+}
