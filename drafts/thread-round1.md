@@ -22,4 +22,4 @@ Caveat: one clean large-cap 10-K. 0 errors on 18 figures means "none here", not 
 
 5/
 Next round is harder: footnotes, segment data, derived metrics, PDFs, small caps, mixed Chinese/English filings.
-Script, prompt, raw responses and ground truth: [GitHub link]
+Script, prompt, raw responses and ground truth: https://github.com/jy007/china-model-evals
